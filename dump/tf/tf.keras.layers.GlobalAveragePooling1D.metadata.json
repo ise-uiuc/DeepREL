@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"f6b5c227e03347b98d86a9273d5aa5b8","collectionName":"tf.keras.layers.GlobalAveragePooling1D","type":"collection"}

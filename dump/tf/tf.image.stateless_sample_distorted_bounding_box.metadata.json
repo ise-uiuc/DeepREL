@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"849e5b4762fa4418acdcee87df032b49","collectionName":"tf.image.stateless_sample_distorted_bounding_box","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"d4bbbe977a984881a72065439e08f049","collectionName":"tf.keras.layers.LayerNormalization","type":"collection"}

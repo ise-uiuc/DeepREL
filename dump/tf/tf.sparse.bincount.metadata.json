@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"3738820e5fa1467f96eeb4235b6dec98","collectionName":"tf.sparse.bincount","type":"collection"}

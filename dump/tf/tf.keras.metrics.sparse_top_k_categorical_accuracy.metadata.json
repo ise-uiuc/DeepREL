@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"63160bb1a1ec47c4b06526f3bb78e909","collectionName":"tf.keras.metrics.sparse_top_k_categorical_accuracy","type":"collection"}

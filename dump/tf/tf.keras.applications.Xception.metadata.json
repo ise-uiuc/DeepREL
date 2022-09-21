@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"dc455e6fc0e44138ad65058faaabcd3b","collectionName":"tf.keras.applications.Xception","type":"collection"}

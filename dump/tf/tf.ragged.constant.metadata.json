@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"bb016a7922fc4a0980fca789a5109bf1","collectionName":"tf.ragged.constant","type":"collection"}

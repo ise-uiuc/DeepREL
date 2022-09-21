@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"539608fd6d264fca8f5d7f8093475074","collectionName":"tf.sparse.eye","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"a647f8b49b4e4351a3783d1e9f5c73f7","collectionName":"tf.keras.backend.clear_session","type":"collection"}

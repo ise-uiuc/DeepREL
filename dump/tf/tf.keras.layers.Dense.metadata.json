@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5482920973f04e01810c3090203a8654","collectionName":"tf.keras.layers.Dense","type":"collection"}

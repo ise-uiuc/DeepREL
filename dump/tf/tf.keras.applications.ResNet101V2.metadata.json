@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"9c2732036304421db6895c1f534e18d0","collectionName":"tf.keras.applications.ResNet101V2","type":"collection"}

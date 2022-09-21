@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b0de8b3c4f2740bba1d6a0fabea12494","collectionName":"tf.keras.initializers.zeros","type":"collection"}

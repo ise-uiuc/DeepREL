@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5e3ed4d28ac14e5fbf493fe29db65ecf","collectionName":"tf.bitcast","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5f9b73899e2e4886aeaf49f3aac17eb2","collectionName":"tf.keras.layers.GRU","type":"collection"}

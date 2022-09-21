@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"6138f3c41e004120afa09b87ec046617","collectionName":"tf.keras.layers.Permute","type":"collection"}

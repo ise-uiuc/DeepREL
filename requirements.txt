@@ -1,0 +1,8 @@
+torch==1.10.0
+tensorflow==2.7.0
+pymongo
+numpy
+configparser
+textdistance
+munkres
+termcolor

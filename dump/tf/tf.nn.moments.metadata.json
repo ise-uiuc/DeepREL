@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"e0f6cb0f3079412083f2c8281e27e0a6","collectionName":"tf.nn.moments","type":"collection"}

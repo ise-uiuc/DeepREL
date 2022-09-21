@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"fd87f11facf341abb908ac450fb6e1f1","collectionName":"tf.keras.optimizers.schedules.ExponentialDecay","type":"collection"}

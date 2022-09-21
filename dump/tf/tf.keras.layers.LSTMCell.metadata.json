@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"65572303e732463e992bbf6bc362f296","collectionName":"tf.keras.layers.LSTMCell","type":"collection"}

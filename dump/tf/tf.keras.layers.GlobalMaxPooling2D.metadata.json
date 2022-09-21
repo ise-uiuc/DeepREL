@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"1b5758bd057f47ac8ec6a8e930ff092c","collectionName":"tf.keras.layers.GlobalMaxPooling2D","type":"collection"}

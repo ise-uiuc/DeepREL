@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"8080ad73f4ba4a7daa1f5916c52b438e","collectionName":"tf.strings.regex_replace","type":"collection"}

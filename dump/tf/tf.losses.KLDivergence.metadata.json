@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b8029ac1fdbd489f892c93a83d1399fe","collectionName":"tf.losses.KLDivergence","type":"collection"}

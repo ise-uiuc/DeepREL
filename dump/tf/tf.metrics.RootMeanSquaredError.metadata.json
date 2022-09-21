@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"9afcc259afa34ae899738adede2b6fc6","collectionName":"tf.metrics.RootMeanSquaredError","type":"collection"}
