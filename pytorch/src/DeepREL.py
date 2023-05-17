@@ -54,7 +54,9 @@ if __name__ == "__main__":
         if i == 0:
             api_list = covered_api_list
         else:
-            api_list = load_data(join(f"../output-{i-1}", "new_api.txt"), multiline=True)
+            api_list = load_data(
+                join(f"../output-{i-1}", "new_api.txt"), multiline=True
+            )
 
         # relation test
         timestamp(root_dir)
@@ -84,12 +86,38 @@ if __name__ == "__main__":
                 if os.path.isdir(api_pair_dir):
                     continue
                 try:
-                    res = subprocess.run(["python", "worker.py", api_name, similar_api_name, str(test_number), root_dir], timeout=300, shell=False)
+                    res = subprocess.run(
+                        [
+                            "python",
+                            "worker.py",
+                            api_name,
+                            similar_api_name,
+                            str(test_number),
+                            root_dir,
+                            host,
+                            str(port),
+                            mongo_cfg["torch_database"],
+                        ],
+                        timeout=300,
+                        shell=False,
+                    )
                 except subprocess.TimeoutExpired:
-                    dump_data(f"{api_name} {similar_api_name}\n", join(root_dir, "test-run-timeout.txt"), "a")
+                    dump_data(
+                        f"{api_name} {similar_api_name}\n",
+                        join(root_dir, "test-run-timeout.txt"),
+                        "a",
+                    )
                 except Exception as e:
-                    dump_data(f"{api_name} {similar_api_name}\n", join(root_dir, "test-run-crash.txt"), "a")
+                    dump_data(
+                        f"{api_name} {similar_api_name}\n",
+                        join(root_dir, "test-run-crash.txt"),
+                        "a",
+                    )
                 else:
                     if res.returncode != 0:
-                        dump_data(f"{api_name} {similar_api_name}\n", join(root_dir, "test-run-error.txt"), "a")
+                        dump_data(
+                            f"{api_name} {similar_api_name}\n",
+                            join(root_dir, "test-run-error.txt"),
+                            "a",
+                        )
                 timestamp(root_dir)

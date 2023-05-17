@@ -32,7 +32,7 @@ PossibleValue = {
     ArgType.NULL: [None],
 }
 
-TorchDatabase.database_config("127.0.0.1", 27017, "torch")
+# TorchDatabase.database_config("127.0.0.1", 27017, "torch")
 
 def is_uncovered_api(api):
     covered_api_list = load_data(join(root_dir, "covered_api.txt"), multiline=True)

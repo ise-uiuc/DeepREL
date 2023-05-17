@@ -89,6 +89,12 @@ if __name__ == "__main__":
     api_2 = sys.argv[2]
     num = int(sys.argv[3])
     root_dir = sys.argv[4]
+
+    host = sys.argv[5]
+    port = int(sys.argv[6])
+    db_name = sys.argv[7]
+    matching.TorchDatabase.database_config(host, port, db_name)
+
     matching.root_dir = root_dir
 
     if verify(api_1, api_2, 1, root_dir):
